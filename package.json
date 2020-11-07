@@ -1,0 +1,17 @@
+{
+  "name": "exploring-conditional-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile --config truffle-config-0.5.js && truffle compile --config truffle-config-0.6.js"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.1",
+    "truffle": "^5.1.52"
+  },
+  "dependencies": {
+    "@gnosis.pm/conditional-tokens-contracts": "^1.0.3",
+    "@openzeppelin/contracts": "^3.2.0"
+  }
+}
