@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "compile": "truffle compile --config truffle-config-0.5.js && truffle compile --config truffle-config-0.6.js"
+    "compile": "truffle compile --config truffle-config-0.5.js && truffle compile --config truffle-config-0.6.js",
+    "console": "truffle console --config truffle-config-0.6.js"
   },
   "devDependencies": {
     "ganache-cli": "^6.12.1",
