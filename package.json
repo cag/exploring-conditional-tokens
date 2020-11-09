@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "compile": "truffle compile --config truffle-config-0.5.js && truffle compile --config truffle-config-0.6.js",
-    "console": "truffle console --config truffle-config-0.6.js"
+    "console": "truffle console --config truffle-config-0.6.js",
+    "migrate": "truffle migrate --config truffle-config-0.5.js"
   },
   "devDependencies": {
     "ganache-cli": "^6.12.1",
